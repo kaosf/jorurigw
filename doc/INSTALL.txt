@@ -38,6 +38,10 @@ rootユーザに変更します。
 
   $ su -
 
+システムを更新します。
+
+  $ yum -y update
+
 Joruri Gw の実行に必要なパッケージをインストールします。
 
   # yum -y install wget make gcc-c++ httpd httpd-devel \
