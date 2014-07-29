@@ -162,7 +162,7 @@ Rubyをインストールします。
 
 Phusion Passengerをインストールします。
 
-  # gem install passenger -v 3.0.13
+  # gem install passenger -v 3.0.13 --no-ri --no-rdoc
   # passenger-install-apache2-module
 
   ( 画面の内容を確認して Enterキーを押してください。 )
@@ -183,7 +183,7 @@ Phusion Passengerの動作環境を設定します。
 
 Joruri Gw実行に必要なライブラリをインストールします。
 
-  # gem install bundler -v 1.1.4
+  # gem install bundler -v 1.1.4 --no-ri --no-rdoc
   # cd /var/share/jorurigw
   # bundle install
 
